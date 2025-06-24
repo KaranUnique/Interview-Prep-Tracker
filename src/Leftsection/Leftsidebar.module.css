@@ -1,0 +1,26 @@
+.sidebar{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.active{
+    color: #3b82f6;
+    font-weight: bold;
+}
+.sidebar:hover {
+  background-color: #e6f0ff;
+}
+.navLink {
+  color: black;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.navLink.active {
+  color: #3b82f6;
+  font-weight: bold;
+}
+.navLink:hover{
+    color: #3b82f6;
+}
