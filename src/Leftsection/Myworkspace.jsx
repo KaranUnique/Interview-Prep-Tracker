@@ -1,5 +1,5 @@
 import Leftsidebar from "./Leftsidebar";
-function Myworkspace({ onBack }) {
+function Myworkspace() {
     console.log("workspace display")
     return (
         <><div className="container">

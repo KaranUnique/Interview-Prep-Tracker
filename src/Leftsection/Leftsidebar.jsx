@@ -3,22 +3,21 @@ import notes from '../assets/note.svg'
 import library from '../assets/library.png'
 import workspace from '../assets/workspace.png'
 import styles from './Leftsidebar.module.css';
-
-function Leftsidebar({ setActivePage, activePage }) {
+import { Link, useLocation } from 'react-router-dom';
+function Leftsidebar() {
+    const location = useLocation();
     return (
         <div className="left-section">
-            <div onClick={() => setActivePage("workspace")}
-               className={`${styles.sidebar} ${activePage === 'workspace' ? styles.active : ''}`}
+            <Link to="/workspace"
+                className={`${styles.sidebar} ${location.pathname === 'workspace' ? styles.active : ''}`}
             >
                 <img src={workspace}></img>
                 <h4>My Workspace</h4>
-            </div>
-            <div onClick={() => setActivePage("sheetlibrary")}
-               className={`${styles.sidebar} ${activePage === 'sheetlibrary' ? styles.active : ''}`}
-            >
-                <img src={library}></img>
+            </Link>
+            <Link to="/sheetlibrary" className={`${styles.sidebar} ${location.pathname === '/sheetlibrary' ? styles.active : ''}`}>
+                <img src={library} alt="library" />
                 <h4>Sheet Library</h4>
-            </div>
+            </Link>
             <div>
                 <img src={explore}></img>
                 <h4>My Plan</h4>

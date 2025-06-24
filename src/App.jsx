@@ -7,39 +7,17 @@ import Login from './login'
 import Myworkspace from './Leftsection/Myworkspace';
 import SheetLibrary from './Leftsection/SheetLibrary';
 function App() {
-  const [loginPage, setlogin] = useState(false);
-  const [activePage, setActivePage] = useState("home");
-
-  if (loginPage) {
-    return (
-      <>
-        <Navbar onLogin={() => setlogin(true)} setActivePage={setActivePage} activePage={activePage} />
-        <Login onBack={() => setlogin(false)} />
-      </>
-    );
-  }
-
-  if (activePage === "workspace") {
-    return (
-      <>
-        <Navbar onLogin={() => setlogin(true)} setActivePage={setActivePage} activePage={activePage} />
-        <Myworkspace onBack={() => setActivePage("home")} setActivePage={setActivePage} activePage={activePage} />
-      </>
-    );
-  } 
-  if (activePage === "sheetlibrary") {
-    return (
-      <>
-        <Navbar onLogin={() => setlogin(true)} setActivePage={setActivePage} activePage={activePage}/>
-        <SheetLibrary  onBack={() => setActivePage("home")} setActivePage={setActivePage} activePage={activePage} />
-      </>
-    )
-  }
   return (
-    <>
-      <Navbar onLogin={() => setlogin(true)} setActivePage={setActivePage} activePage={activePage}/>
-      <PracticeHub setActivePage={setActivePage} activePage={activePage} />
-    </>
+
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<PracticeHub />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/workspace" element={<Myworkspace />} />
+        <Route path="/sheetlibrary" element={<SheetLibrary />} />
+      </Routes>
+    </Router>
   );
 }
 

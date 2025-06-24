@@ -7,7 +7,7 @@ import QuickRevisionContent from './components/QuickRevisionContent';
 import CompleteDSAContent from './components/CompleteDSAContent';
 import CodeBattlesContent from './components/CodeBattlesContent';
 import Leftsidebar from './Leftsection/Leftsidebar'
-function PracticeHub({setActivePage,activePage}) {
+function PracticeHub() {
 
     const [activeTab, setActiveTab] = useState('All');
 
@@ -32,7 +32,7 @@ function PracticeHub({setActivePage,activePage}) {
     return (
         <>
             <div className="container">
-                <Leftsidebar setActivePage={setActivePage} activePage={activePage}/>
+                <Leftsidebar/>
                 <div className="right-section">
                     <div>
                         <h2>Keep All Your Coding Progress Together</h2>
