@@ -6,6 +6,7 @@ import PracticeHub from './practicehub'
 import Login from './login'
 import Myworkspace from './Leftsection/Myworkspace';
 import SheetLibrary from './Leftsection/SheetLibrary';
+import Footer from './footer';
 function App() {
   return (
 
@@ -17,6 +18,7 @@ function App() {
         <Route path="/workspace" element={<Myworkspace />} />
         <Route path="/sheetlibrary" element={<SheetLibrary />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }

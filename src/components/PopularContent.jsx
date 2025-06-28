@@ -1,8 +1,9 @@
+import SheetList from "../pages/SheetList";
+
 function PopularContent(){
     return(
         <>
-        <h1>PopularContent</h1>
-        <p>this page provide PopularContent content</p>
+        <SheetList type="popular"/>
         </>
     );
 }

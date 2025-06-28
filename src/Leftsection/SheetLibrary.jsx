@@ -1,12 +1,13 @@
 import Leftsidebar from "./Leftsidebar";
-function SheetLibrary( { onBack, setActivePage, activePage}) {
-    console.log("workspace display")
+import { Navigate ,useNavigate} from "react-router-dom";
+function SheetLibrary() {
+    const navigate = useNavigate();
     return (
         <><div className="container">
-            <Leftsidebar setActivePage={onBack} />
+            <Leftsidebar/>
             <div className="right-section">
                 <h1>SheetLibrary</h1>
-                <button onClick={onBack}>Back</button>
+                <button onClick={()=>navigate(-1)}>Back</button>
             </div>
         </div>
             

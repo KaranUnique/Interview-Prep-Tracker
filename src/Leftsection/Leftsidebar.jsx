@@ -9,7 +9,7 @@ function Leftsidebar() {
     return (
         <div className="left-section">
             <Link to="/workspace"
-                className={`${styles.sidebar} ${location.pathname === 'workspace' ? styles.active : ''}`}
+                className={`${styles.sidebar} ${location.pathname === '/workspace' ? styles.active : ''}`}
             >
                 <img src={workspace}></img>
                 <h4>My Workspace</h4>

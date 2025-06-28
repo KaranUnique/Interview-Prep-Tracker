@@ -1,6 +1,6 @@
 import googlelogo from './assets/googlelogo.png';
 import login_img from './assets/login_img.svg';
-function Login({ onBack }) {
+function Login() {
     return (
         <div className="logcontainer">
             <div className="left-log">

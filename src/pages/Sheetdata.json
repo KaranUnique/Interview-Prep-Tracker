@@ -1,0 +1,214 @@
+{
+  "sheets": [
+    {
+      "id": "striver-sde-sheet",
+      "title": "Striver SDE Sheet",
+      "description": "Handily crafted top coding interview questions.",
+      "followers": 4154,
+      "questions": 191
+    },
+    {
+      "id": "striver-a2z-dsa-sheet",
+      "title": "Striver A2Z DSA Sheet",
+      "description": "Learn DSA from A to Z in a well-structured manner.",
+      "followers": 5045,
+      "questions": 449
+    },
+    {
+      "id": "love-babbar-dsa-sheet",
+      "title": "Love Babbar DSA Sheet",
+      "description": "Covers almost every concept in Data Structures & Algorithms.",
+      "followers": 2237,
+      "questions": 430
+    },
+    {
+      "id": "top-interview-150-levocode",
+      "title": "Top Interview 150 Leetcode",
+      "description": "Curated list of frequently asked LeetCode problems.",
+      "followers": 1546,
+      "questions": 150
+    },
+    {
+      "id": "blind-75",
+      "title": "Blind 75",
+      "description": "75 frequently asked LeetCode questions.",
+      "followers": 1159,
+      "questions": 75
+    },
+    {
+      "id": "neetcode-150",
+      "title": "NeetCode 150",
+      "description": "Popular sheet curated by Navdeep Singh.",
+      "followers": 1310,
+      "questions": 150
+    },
+    {
+      "id": "dp-mastery-sheet",
+      "title": "DP Mastery Sheet",
+      "description": "Comprehensive DP questions to master dynamic programming.",
+      "followers": 1016,
+      "questions": 67
+    },
+    {
+      "id": "dsa-by-sharadha-aman",
+      "title": "DSA by Sharadha & Aman",
+      "description": "Curated sheet covering 403 DSA problems.",
+      "followers": 712,
+      "questions": 403
+    },
+    {
+      "id": "competitive-coding-sheet",
+      "title": "Competitive Coding Sheet",
+      "description": "Problems for competitive programming enthusiasts.",
+      "followers": 650,
+      "questions": 200
+    },
+    {
+      "id": "topic-specific-graph-sheet",
+      "title": "Topic Specific – Graphs",
+      "description": "Focused sheet on graph theory problems.",
+      "followers": 540,
+      "questions": 80
+    },
+    {
+      "id": "topic-specific-trees-sheet",
+      "title": "Topic Specific – Trees",
+      "description": "Focused sheet on tree data structures.",
+      "followers": 520,
+      "questions": 90
+    },
+    {
+      "id": "sliding-window-sheet",
+      "title": "Sliding Window Sheet",
+      "description": "Practice array sliding-window pattern questions.",
+      "followers": 480,
+      "questions": 60
+    },
+    {
+      "id": "two-pointer-sheet",
+      "title": "Two Pointer Sheet",
+      "description": "Curated two-pointer technique problems.",
+      "followers": 460,
+      "questions": 50
+    },
+    {
+      "id": "binary-search-sheet",
+      "title": "Binary Search Sheet",
+      "description": "Key binary search pattern problems.",
+      "followers": 430,
+      "questions": 55
+    },
+    {
+      "id": "greedy-algo-sheet",
+      "title": "Greedy Algorithms Sheet",
+      "description": "Popular greedy technique problems.",
+      "followers": 400,
+      "questions": 45
+    },
+    {
+      "id": "stack-queue-sheet",
+      "title": "Stack & Queue Sheet",
+      "description": "Essential problems using stacks and queues.",
+      "followers": 380,
+      "questions": 35
+    },
+    {
+      "id": "linked-list-sheet",
+      "title": "Linked List Sheet",
+      "description": "Single/double linked list problems.",
+      "followers": 350,
+      "questions": 60
+    },
+    {
+      "id": "short-array-sheet",
+      "title": "Short Array Algorithms",
+      "description": "Common array based interview problems.",
+      "followers": 330,
+      "questions": 70
+    },
+    {
+      "id": "matrix-sheet",
+      "title": "Matrix Algorithms Sheet",
+      "description": "Core problems on matrix traversals & operations.",
+      "followers": 300,
+      "questions": 40
+    },
+    {
+      "id": "system-design-sheet",
+      "title": "System Design Sheet",
+      "description": "Introductory system design questions for SDEs.",
+      "followers": 280,
+      "questions": 30
+    },
+    {
+      "id": "recursion-backtracking-sheet",
+      "title": "Recursion & Backtracking Sheet",
+      "description": "Solve problems based on recursion and backtracking techniques.",
+      "followers": 275,
+      "questions": 50
+    },
+    {
+      "id": "bit-manipulation-sheet",
+      "title": "Bit Manipulation Sheet",
+      "description": "Master problems involving bitwise operators and logic.",
+      "followers": 260,
+      "questions": 40
+    },
+    {
+      "id": "heap-priorityqueue-sheet",
+      "title": "Heap & Priority Queue Sheet",
+      "description": "Problems covering heaps and priority queues in depth.",
+      "followers": 245,
+      "questions": 35
+    },
+    {
+      "id": "trie-advanced-dsa-sheet",
+      "title": "Trie & Advanced DSA Sheet",
+      "description": "Tackle advanced data structures including Tries.",
+      "followers": 230,
+      "questions": 38
+    },
+    {
+      "id": "graph-dijkstra-kruskal-sheet",
+      "title": "Graphs: Dijkstra & Kruskal",
+      "description": "Focus on weighted graphs and shortest path algorithms.",
+      "followers": 220,
+      "questions": 42
+    },
+    {
+      "id": "topological-sort-dag-sheet",
+      "title": "Topological Sort & DAG Sheet",
+      "description": "Handle directed acyclic graphs and topological sorting.",
+      "followers": 210,
+      "questions": 28
+    },
+    {
+      "id": "segment-tree-sheet",
+      "title": "Segment Tree Mastery Sheet",
+      "description": "Master range queries using segment trees.",
+      "followers": 200,
+      "questions": 33
+    },
+    {
+      "id": "string-algorithms-sheet",
+      "title": "String Algorithms Sheet",
+      "description": "Pattern matching and string manipulation problems.",
+      "followers": 190,
+      "questions": 45
+    },
+    {
+      "id": "math-number-theory-sheet",
+      "title": "Math & Number Theory Sheet",
+      "description": "Practice math-heavy problems including primes and modulo.",
+      "followers": 180,
+      "questions": 36
+    },
+    {
+      "id": "oops-concepts-sheet",
+      "title": "OOPs Concepts & Design Sheet",
+      "description": "Understand object-oriented programming and design questions.",
+      "followers": 170,
+      "questions": 20
+    }
+  ]
+}
