@@ -1,0 +1,34 @@
+[
+    {
+        "id": "striver-sde-sheet",
+        "title": "Striver SDE Sheet",
+        "description": "Top interview coding questions curated by Striver.",
+        "followers": 4154,
+        "questions": 191,
+        "category": "complete-dsa"
+    },
+    {
+        "id": "love-babbar-dsa-sheet",
+        "title": "Love Babbar DSA Sheet",
+        "description": "450 DSA questions curated by Love Babbar to crack interviews.",
+        "followers": 3921,
+        "questions": 450,
+        "category": "complete-dsa"
+    },
+    {
+        "id": "gfg-must-know-dsa",
+        "title": "GFG Must‑Know DSA Sheet",
+        "description": "Top questions from GeeksforGeeks to ace coding interviews.",
+        "followers": 4587,
+        "questions": 250,
+        "category": "popular"
+    },
+    {
+        "id": "neetcode-150",
+        "title": "NeetCode 150 DSA Sheet",
+        "description": "150 high-impact LeetCode problems curated for FAANG & big tech interviews.",
+        "followers": 6250,
+        "questions": 150,
+        "category": "popular"
+    }
+]

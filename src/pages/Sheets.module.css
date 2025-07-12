@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.sheet_container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.sheet_container p {
+    font-size: 19px;
+    opacity: 50%;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    margin-top: 0;
+}
+
+.sheet_grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+
+
+.sheet_card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+
+
+
+.sheet_card .stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5rem;
+    font-size: 0.83rem;
+    color: #6b7280;
+}
+
+.sheet_card {
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    /* slightly smaller */
+    padding: 0.6rem 0.8rem;
+    /* reduced padding */
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-decoration: none;
+    position: relative;
+}
+.sheet_card::before {
+  content: attr(data-percentage);
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #e0f2fe;
+  color: #0284c7;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 0.75rem;
+  z-index: 1;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+.sheet_card h3 {
+    color: #3b82f6;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 8px 0 4px;
+    line-height: 1.2;
+    border-bottom: 2px solid #d2d8e3;
+}
+
+.sheet_card h3::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 40%;
+    background-color: #3b82f6;
+    border-radius: 4px;
+}
+
+.sheet_card p {
+    margin: 2px 0;
+    font-size: 0.85rem;
+    /* reduced */
+    color: #000000;
+    line-height: 1.3;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.sheet_card button {
+    margin-top: auto;
+    padding: 0.3rem 0.7rem;
+    /* reduced */
+    background-color: #3b82f6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 0.75rem;
+    /* reduced */
+    cursor: pointer;
+    align-self: flex-end;
+    transition: background-color 0.2s ease;
+}
+
+.sheet_card button:hover {
+    background-color: #3b82f6;
+}
+.courses_card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

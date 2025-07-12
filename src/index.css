@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+:root {
+  --primary-color: #3b82f6;
+  --background-color: #f3f8ff;
+  --input-background: #f1f1f1;
+  --text-color: #333;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+input,
+button {
+  font-family: 'Poppins', sans-serif;
+ }
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 30px;
+  height: 55px;
+  border: none;
+  border-bottom: 2px solid #eaeaea;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: white;
+}
+
+.nav-atb {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.nav-atb a {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.btn {
+  width: 75px;
+  height: 32px;
+  border-radius: 6px;
+  border: none;
+  background-color: var(--primary-color);
+  font-weight: bold;
+  color: white;
+  font-size: 15px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  padding-left: 10px;
+  margin-top: 50px;
+}
+
+.left-section {
+  width: 240px;
+  background-color: white;
+  border-right: 1px solid #e5e5e5;
+  height: 100vh;
+  position: sticky;
+  top: 55px; /* if your navbar height is 55px */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 20px;
+}
+
+
+.left-section :hover {
+  color: var(--primary-color);
+}
+
+.right-section {
+  background-color: rgb(250, 250, 250);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  overflow-y: auto;
+  padding: 35px;
+  flex-grow: 1;
+}
+
+.left-section div {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  padding: 10px;
+}
+
+.left-section img {
+  width: 37px;
+  height: 37px;
+  padding-right: 13px;
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
+
+.left-section h4 {
+  font-weight: medium;
+}
+
+.right-section p {
+  padding-top: 5px;
+  font-size: medium;
+  opacity: 50%;
+}
+
+/* .search-input{
+  margin-top: 50px;
+  width: 410px;
+  height: 40px;
+  border: none;
+  border: 2px solid grey;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.search-input input{
+  height: 40px;
+  width: 410px;
+  border: none;
+  font-size: large;
+}
+.search-input img{
+  width: 20px;
+  height: 20px;
+} */
+.designimg {
+  width: 100px;
+  height: 100px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-area {
+  width: 100%;
+}
+
+.search-input {
+  margin-top: 50px;
+  width: 500px;
+  height: 40px;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  gap: 10px;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.search-input input {
+  flex: 1;
+  height: 100%;
+  width: 400px;
+  border: none;
+  outline: none;
+  font-size: medium;
+}
+
+.search-input img {
+  width: 27px;
+  height: 27px;
+  padding: 5px;
+}
+
+.search-btn {
+  margin-top: 45px;
+  margin-bottom: 0;
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: flex-start;
+}
+
+.search-btn button {
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+  margin-right: 8px;
+  border: 2px solid rgb(241, 234, 234);
+  cursor: pointer;
+}
+
+.logcontainer {
+  display: flex;
+  width: 100vw;
+  height: 100vw;
+}
+
+.left-log {
+  padding: 160px;
+  width: 50%;
+
+}
+
+.left-log h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.right-log {
+  width: 50%;
+}
+
+.right-log img {
+  width: 1000px;
+}
+
+.credentials {
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.credentials h5 {
+  font-size: 16px;
+  margin-bottom: 6px;
+  opacity: 70%;
+}
+
+.credentials input {
+  font-size: 14px;
+  width: auto;
+  height: 45px;
+  outline: none;
+  border: 1px solid rgb(241, 234, 234);
+  border-radius: 7px;
+  padding-left: 10px;
+}
+
+.password-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.password-label h6 {
+  color: rgb(0, 0, 223);
+  font-size: 14px;
+  margin-bottom: 6px;
+  opacity: 60%;
+}
+
+.credentials-btn {
+  margin-top: 25px;
+  height: 46px;
+  border: none;
+  border-radius: 7px;
+  background-color: var(--primary-color);
+  font-size: medium;
+  font-weight: bold;
+  color: white;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  margin: 30px 0;
+  gap: 10px;
+}
+
+.divider hr {
+  flex: 1;
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+}
+
+.divider span {
+  font-size: 15px;
+  font-weight: 700;
+  color: #555;
+  white-space: nowrap;
+}
+
+.google-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.google-login img {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 15px;
+}
+
+.google-login button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 280px;
+  height: 45px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: white;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.terms-condition {
+  width: 400px;
+  margin: 20px;
+
+}
+
+.terms-condition p {
+  display: flex;
+  font-size: 12px;
+  justify-content: center;
+
+}
+
+.terms-condition span {
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.footer-part {
+  background-color: #ffffff;
+  border-top: 1px solid #e5e7eb;
+  padding: 1rem 0;
+  width: 100%;
+}
+
+.foot-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 16px;
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.footer-socialmedia {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer-copyright {
+  text-align: center;
+  font-size: 14px;
+  color: #4b5563;
+}
+
+.footer-copyright p {
+  opacity: 0.8;
+  font-size: 15px;
+  color: #333;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,181 @@
+/* Main container */
+.leaderboardContainer {
+  margin-top: 50px;
+  padding: 2rem;
+  background-color: #f9fafb;
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Heading */
+.leaderboardTitle {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 1.5rem;
+}
+
+/* Tabs */
+.tabBar {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.tab {
+  padding: 0.5rem 1.25rem;
+  background-color: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: all 0.2s;
+}
+
+.tab:hover {
+  background-color: #f3f4f6;
+}
+
+.tabActive {
+  background-color: #3b82f6;
+  color: #fff;
+  border-color: #3b82f6;
+}
+
+/* Top Users Row */
+.topUsers {
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+/* Top Card */
+.topCard {
+  background-color: #fff;
+  border: 2px solid #e5e7eb;
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 260px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.04);
+  text-align: center;
+  position: relative;
+}
+
+.topCard:first-child {
+  order: 2;
+}
+.topCard:nth-child(2) {
+  order: 1;
+  border: 2px solid #3b82f6;
+  box-shadow: 0 0 15px rgba(245, 158, 11, 0.3);
+}
+
+.topCard:last-child {
+  order: 3;
+}
+
+.topCard img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+}
+
+.topCard h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.topCard span {
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin-bottom: 0.75rem;
+  display: block;
+}
+
+.scoreValue {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+.rankLabel {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #111827;
+  margin-top: 0.25rem;
+}
+
+/* Alert box */
+.rankAlert {
+  background-color: #e0fdf4;
+  color: #047857;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+  border: 1px solid #99f6e4;
+}
+
+/* Table Section */
+.rankingTable {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.03);
+}
+
+.rankingTable th,
+.rankingTable td {
+  padding: 0.9rem 1.2rem;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.rankingTable thead {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+.rankingTable th {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.rankingTable tbody tr:hover {
+  background-color: #f9fafb;
+}
+
+.rankingTable td {
+  font-size: 0.95rem;
+  color: #1f2937;
+}
+
+.rankIcon {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .topUsers {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tabBar {
+    flex-direction: column;
+  }
+
+  .topCard {
+    width: 100%;
+    max-width: 320px;
+  }
+}
